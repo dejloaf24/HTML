@@ -1,0 +1,15 @@
+.nav li{
+    display: inline;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.big{
+    font-size: 36px;
+}
+
+.bold{
+    font-weight: bold;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>class="big bold">This is a big and bold heading.</h1>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <style>
+            .navbar{
+                overflow: hidden;
+                background-color: blue;
+            }
+
+            .navbar a{
+                float: left;
+                display: block;
+                color: aquamarine;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .navbar a:hover{
+                background-color: aqua;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        
+    <div class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Work">Work</a>
+        <a href="#Resume">Resume</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <!--About Section-->
+        <section id="About">
+            <h2>About</h2>
+            <p> My name is Agunpopo Ayodeji and i'm an aspiring front end developer at GOMYCODE.</p>
+        </section>
+
+        <!--Work Section-->
+        <section id="Work">
+            <h2>Work</h2>
+            <p> <IMAGE class="jpg"></IMAGE></p>
+        </section>  
+        
+        <!--Resume Section-->
+        <section id="Resume">
+            <h2>Resume</h2>
+            <p> I have a couple of months experience at GOMYCODE Academy.</p>
+        </section> 
+        
+        <!--Contact Section-->
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </body>
+</html>        
+
+<!--Footer Section-->
+<footer>
+    <p>Copyright &copy; 2024 Ayodeji. All rights reserved.</p>
+</footer>    
+        
+        
+                
+
+
+
+
